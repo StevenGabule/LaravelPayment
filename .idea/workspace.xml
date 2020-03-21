@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2db49abb-4839-4984-9893-d406a95945ca" name="Default Changelist" comment="" />
+    <list default="true" id="2db49abb-4839-4984-9893-d406a95945ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/components/stripe-collapse.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -59,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -85,14 +88,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PaymentController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="300">
+              <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding>
                 <element signature="e#40#57#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Traits/ConsumesExternalServices.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -103,6 +115,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -123,6 +138,7 @@
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PaymentController.php" />
+        <option value="$PROJECT_DIR$/app/Traits/ConsumesExternalServices.php" />
       </list>
     </option>
   </component>
@@ -210,12 +226,21 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1050" />
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="995" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -250,6 +275,12 @@
             <path>
               <item name="LaravelPayment" type="b2602c69:ProjectViewProjectNode" />
               <item name="LaravelPayment" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Traits" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LaravelPayment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LaravelPayment" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -279,6 +310,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
     <property name="editor.config.ad.shown" value="true" />
@@ -321,18 +353,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584734668472</updated>
-      <workItem from="1584734676799" duration="6382000" />
+      <workItem from="1584734676799" duration="7321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6382000" />
+    <option name="totallyTimeSpent" value="7321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.3228188" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.20268457" />
       <window_info id="Structure" order="1" sideWeight="0.50073206" side_tool="true" weight="0.1590604" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5021834" side_tool="true" weight="0.1590604" />
@@ -468,14 +500,14 @@
     <entry file="file://$PROJECT_DIR$/resources/views/components/stripe-collapse.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -501,11 +533,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PaymentController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="300">
+          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <element signature="e#40#57#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Traits/ConsumesExternalServices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
         </state>
       </provider>
     </entry>
