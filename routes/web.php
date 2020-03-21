@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', static function () {
     return view('welcome');
 });
 
@@ -19,5 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/payments/pay', 'PaymentController@pay')->name('pay');
-Route::post('/payments/approval', 'PaymentController@approval')->name('approved');
-Route::post('/payments/cancelled', 'PaymentController@cancelled')->name('cancelled');
+Route::get('/payments/approval', 'PaymentController@approval')->name('approved');
+Route::get('/payments/cancelled', 'PaymentController@cancelled')->name('cancelled');

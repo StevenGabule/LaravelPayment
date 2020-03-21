@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Currency;
 use App\PaymentPlatform;
+use App\Services\PayPalService;
 use Illuminate\Http\Request;
 
 class PaymentController extends Controller
@@ -14,6 +15,7 @@ class PaymentController extends Controller
         $this->middleware('auth');
     }
 
+
     public function pay(Request $request)
     {
         $rules = [
@@ -23,13 +25,17 @@ class PaymentController extends Controller
         ];
 
         $request->validate($rules);
-        return $request->all();
 
+        $paymentPlatForm = resolve(PayPalService::class);
+
+        return $paymentPlatForm->handlePayment($request);
     }
 
     public function approval()
     {
-        
+        $paymentPlatForm = resolve(PayPalService::class);
+        return $paymentPlatForm->handleApproval();
+
     }
 
     public function cancelled()
